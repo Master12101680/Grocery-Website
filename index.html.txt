@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="s.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>My Groco</title>
+  </head>
+  <body style="background-color:orange);">
+    <div class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href=""><i class="fas fa-shopping-basket"></i> Groco</a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#reviews">Review</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="/resp forms.html">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="buttons">
+          <ul>
+            <li>
+              <button class="fas fa-search"></button>
+            </li>
+            <li>
+              <button class="fas fa-shopping-cart"></button>
+            </li>
+            <li>
+              <button class="fas fa-user"></button>
+              <button class=""></button>
+              
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="landing">
+      <div class="container">
+        <h3>Fresh And <span>Organic</span> Products For Your</h3>
+        <p>Welcome to India's largest chain of online grocery store. Out dedicated team is here to find a solution to all your daily needs.</p>
+        <p>Ask us what you want, and we get you at your doorstep.</p>
+        <a href="">Shop Now</a>
+      </div>
+    </div>
+    <div class="features" id="features">
+      <h1 class="main-title">Features</h1>
+      <div class="container">
+        <div class="col special-box">
+          <img src="feature-img-1.png" alt="" />
+          <h3>Fresh And Organic</h3>
+          <p>Organic farming is much in demand around the world, with more people realizing the benefits of it, we are serving the same at your doorstep!</p>
+          <a href="">Read More</a>
+        </div>
+        <div class="col special-box">
+          <img src="feature-img-2.png" alt="" />
+          <h3>Free Delivery</h3>
+          <p>We provide free delivery at the wink of an eye. Order now and get extra bonus 20% on your first order.. Yayyy!!! That's a win win :)</p>
+          <a href="">Read More</a>
+        </div>
+        <div class="col special-box">
+          <img src="feature-img-3.png" alt="" />
+          <h3>Easy Payments</h3>
+          <p>We have all the online payment methods available for you! Order and Relax!</p>
+          <a href="">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="products" id="products">
+      <h1 class="main-title">Our Products</h1>
+      <div class="container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide col special-box">
+            <img src="product-1.png" alt="" />
+            <h3>Fresh Orange</h3>
+            <p>Rs. 100 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-2.png" alt="" />
+            <h3>Fresh Onion</h3>
+            <p>Rs. 60 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-3.png" alt="" />
+            <h3>Fresh Meat</h3>
+            <p>Rs. 220 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-4.png" alt="" />
+            <h3>Fresh Cabbage</h3>
+            <p>Rs. 40 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-5.png" alt="" />
+            <h3>Fresh Potato</h3>
+            <p>Rs. 40 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-6.png" alt="" />
+            <h3>Fresh Avocado</h3>
+            <p>Rs. 80 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-7.png" alt="" />
+            <h3>Fresh Carrot</h3>
+            <p>Rs. 40 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-8.png" alt="" />
+            <h3>Fresh Lemon</h3>
+            <p>Rs. 5 per piece.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="container swiper mySwiper" style="margin-top: 10px">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide col special-box">
+            <img src="product-5.png" alt="" />
+            <h3>Fresh Potato</h3>
+            <p>Rs. 20 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-6.png" alt="" />
+            <h3>Fresh Avocado</h3>
+            <p>Rs. 60 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-8.png" alt="" />
+            <h3>Fresh Lemon</h3>
+            <p>Rs.10 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="product-7.png" alt="" />
+            <h3>Fresh Carrot</h3>
+            <p>Rs. 40 per kg.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="categories" id="categories">
+      <h1 class="main-title">Product Categories</h1>
+      <div class="container">
+        <div class="col special-box">
+          <img src="cat-1.png" alt="" />
+          <h3>Vegitables</h3>
+          <p>Upto 45% Off</p>
+          <a href="">Shop Now</a>
+        </div>
+        <div class="col special-box">
+          <img src="cat-2.png" alt="" />
+          <h3>Fresh Fruits</h3>
+          <p>Upto 45% Off</p>
+          <a href="">Shop Now</a>
+        </div>
+        <div class="col special-box">
+          <img src="cat-3.png" alt="" />
+          <h3>Dairy Products</h3>
+          <p>Upto 45% Off</p>
+          <a href="">Shop Now</a>
+        </div>
+        <div class="col special-box">
+          <img src="cat-4.png" alt="" />
+          <h3>Fresh Meat</h3>
+          <p>Upto 45% Off</p>
+          <a href="">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="reviews" id="reviews">
+      <h1 class="main-title">Customer's Review</h1>
+      <div class="container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide col special-box">
+            <img src="pic2.png" alt="" />
+            <p>Received my order a week back. Wanted to say that even though the order reached me much later than expected, the oranges were in perfect condition & truly delicious! Reminded me of oranges ate in India during my childhood. Thank you very much & have a wonderful weekend.</p>
+            <h3>Yaswanth</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="pic1.png" alt="" />
+            <p>My order was on my porch when l arrived home just now. Thank you so much! This is my first time ordering with your company. I want to continue to order from you. Since the pandemic, over 95% of my purchases are on line. I find it to be way more convient. So, PLEASE forgive me for being a little upset. </p>
+            <h3>Amandeep</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide col special-box">
+            <img src="pic3.png" alt="" />
+            <p>The order was in perfect condition and the delivery time was accurate and delivery executive was extremely well behaved,Overall great satisfactory services, and wish to carry forward with this relationship. The variety of the orders could be worked upon more, rest the quality is definitely not compromised at all. 5 stars from my end ;) </p>
+            <h3>Avik</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blogs" id="blogs">
+      <h1 class="main-title">Our Blogs</h1>
+      <div class="container">
+        <div class="blog">
+          <img src="blog-1.jpg" alt="" />
+          <div class="details">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> By User </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st May, 2021 </a>
+            </div>
+            <h3>Fresh And Organic Vegitables</h3>
+            <p>Organic veggies are the new thing, people around the world is realizing the importance, but not so easy to access, so we took up the responsibility to delivery the freshest and yummiest at your doorstep with just a click. Order now!!!</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+        <div class="blog">
+          <img src="blog-2.jpg" alt="blog-2"/>
+          <div class="details">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> By User </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st May, 2021 </a>
+            </div>
+            <h3>Fresh And Organic Fruits</h3>
+            <p>Organic fruits are in demand, as the harmful fertilizers are definitely what your system wants, we grow organically and safely to deliver you the best.</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+        <div class="blog">
+          <img src="blog-3.jpg" alt="" />
+          <div class="details">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> By User </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st May, 2021 </a>
+            </div>
+            <h3>Processed Food</h3>
+            <p>This is our new section for all those working class! We understnd your problems, and we are here to serve you better. Order from our new section of processed food items, that are ready to cook, instant and delicious! Mouth watering!!!</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="boxes">
+          <div class="box box-1">
+            <h3><i class="fas fa-shopping-basket"></i> Groco</h3>
+            <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Aliquam, Saepe.</p>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="box box-2">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>6207347756 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>7850037958 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> ankur000bond2@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Lovely Professional University </a>
+          </div>
+          <div class="box box-3">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+          </div>
+          <div class="box box-4">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email" />
+            <input type="submit" value="subscribe" class="btn" />
+            <img src="payment.png" class="payment-img" alt="" />
+          </div>
+        </div>
+        <div class="credits">created by <span> <b>Master Ankur</b> </span> | all rights reserved</div>
+      </div>
+    </div>
+  </body>
+</html>
